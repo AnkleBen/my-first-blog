@@ -25,7 +25,7 @@ SECRET_KEY = 'j1xx0o5f2qlhnl4!k#uqao%j!mg@2pj*jw4!_x&br9_&hons4p'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['ankleben.pythonanywhere.com']
+ALLOWED_HOSTS = ['ankleben.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
