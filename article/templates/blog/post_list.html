@@ -7,29 +7,26 @@
                 <h1><a href="">NBA Blog</a></h1>
             </div>
 
+            {% for post in posts %}
+                <div>
+                    <p>published: {{ post.published_date }}</p>
+                    <h1><a href="">{{ post.title }}</a></h1>
+                    <p>{{ post.text|linebreaksbr }}</p>
+                </div>
+            {% endfor %}
+
             <div>
-                <p>published: 13.05.2017, 20:58</p>
+                <p>published: 14.06.2014, 12:14</p>
                 <h2><a href="">My first post</a></h2>
-                <p>Букмекерская контора The Westgate Las Vegas SuperBook считает, что у «Сан-Антонио» практически нет шансов на успех в финале Западной конференции против «Голден Стэйт».
-Как пишет ESPN.com, коэффициенты таковы, что при ставке 100 долларов на победу «Уорриорз» в серии выигрыш составит 6 долларов 25 центов. Аналогичная ставка на «Сперс» в случае успеха техасцев принесет 900 долларов.
-Участник двух последних Финалов «Голден Стэйт» выиграл все 8 матчей в плей-офф-2017.</p>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
             </div>
 
             <div>
-                <p>published: 13.05.2017, 20:58</p>
+                <p>published: 14.06.2014, 12:14</p>
                 <h2><a href="">My second post</a></h2>
-                <p>Форвард «Нового Орлеана» Донатас Мотеюнас опроверг информацию о том, что судится с «Рокетс» из-за контрактной ситуации по ходу сезона-2016/17.
-«Месяц назад мы с профсоюзом игроков и «Хьюстоном» достигли соглашения, разрешив все вопросы. Судебного процесса с нашим участием нет. Опубликованная в прессе информация является ложью», – говорится в заявлении литовского баскетболиста.
-«Рокетс» по ходу сезона повторили предложение «Нетс» Мотеюнасу на 35 миллионов долларов и 4 года. Форвард в итоге так и не заиграл в клубе из Хьюстона и позже подписал контракт на 1,5 миллиона с «Пеликанс».</p>
+                <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut f.</p>
             </div>
-        </body>
-    </html>
-<html>
-        <head>
-            <title>NBA blog</title>
-        </head>
-        <body>
-            <p>Hi there!</p>
-            <p>It works!</p>
+
+
         </body>
     </html>
