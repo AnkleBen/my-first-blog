@@ -7,5 +7,14 @@
       <secret-storage>master_key</secret-storage>
       <auth-required>false</auth-required>
     </data-source>
+    <data-source name="nbablog@localhost" uuid="e288714b-ad8c-40ad-abed-a1222d6b8b9c">
+      <database-info product="PostgreSQL" version="9.6.3" jdbc-version="4.0" driver-name="PostgreSQL Native Driver" driver-version="PostgreSQL 9.4.1212">
+        <identifier-quote-string>&quot;</identifier-quote-string>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="exact" />
+      <secret-storage>master_key</secret-storage>
+      <user-name>san</user-name>
+      <resolve-scope>nbablog:public,san</resolve-scope>
+    </data-source>
   </component>
 </project>
